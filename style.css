@@ -1,0 +1,64 @@
+/**
+ *Compound Interest Calculator CSS File
+ *author(Joshua Thomas)
+ *date(13.01.2022)
+ *version:1.0
+*/
+
+body{
+    background: linear-gradient(to left, #d7d2cc, white);
+}
+
+h1, h3{
+    text-align:center;
+    font-family:Tahoma, sans-serif;
+}
+
+h3{
+    margin:-5px;
+}
+
+.principle-input, .interest-input, .duration-input{
+    margin:15px;
+    font-size:16px;
+    outline:none;
+    border-radius:2px;
+    font-family:Tahoma, sans-serif;
+}
+
+
+.output-area{
+    margin:5px 20px;
+    font-size:16px;
+    border-radius:2px;
+}
+
+.btn{
+    margin:10px 60px;
+    background:#52c234;
+    color:white;
+    opacity:80%;
+    font-size:25px;
+    border:none;
+    border-radius:10px;
+    box-shadow:3px 3px 10px black;
+}
+
+.btn:hover{
+    opacity:100%;
+    cursor:pointer;
+}
+
+.text-1, .text-2, .text-3{
+    margin:10px;
+    font-family:Tahoma, sans-serif;
+}
+
+.container{
+    width:250px;
+    height:310px;
+    margin:82px 550px;
+    border-radius:10px;
+    box-shadow: 8px 8px 30px black;
+    
+}
