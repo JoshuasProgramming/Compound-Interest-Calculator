@@ -25,7 +25,7 @@
     </header>
     <!--Main content for header and container-->
     <h1>Compound Interest Calculator</h1>
-    <h3>This calculates the future investment value at a yearly (1/YR) compound interval</h3>
+    <h3>This calculates the future investment value at a yearly (1/YR) compound interval<br><u>Interest Rate is set to yearly</u> & <u>additional deposits are yearly</u></h3>
     <div class="container">
         <label for="principle" class="text-1">Principle Amount</label>
         <input class="principle-input" id="principle" autocomplete="off" required>
@@ -35,6 +35,9 @@
         
         <label for="duration" class="text-3">Duration in years</label>
         <input class="duration-input" id="duration" autocomplete="off" required>
+
+        <label for="yearly" class="text-4">Yearly Contributions</label>
+        <input class="yearly-contributions-input" id="yearly" autocomplete="off">
         
         <button class="btn" id="btn_">Calculate</button>
         

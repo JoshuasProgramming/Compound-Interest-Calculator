@@ -19,7 +19,7 @@ h3{
     margin:-5px;
 }
 
-.principle-input, .interest-input, .duration-input{
+.principle-input, .interest-input, .duration-input, .yearly-contributions-input, .monthly-contributions-input, .daily-contributions-input{
     margin:15px;
     font-size:16px;
     outline:none;
@@ -27,19 +27,47 @@ h3{
     font-family:Tahoma, sans-serif;
 }
 
+.principle-input{
+    margin-left: 50px;
+}
+
+.interest-input{
+    margin-left: 23px;
+}
+
+.duration-input{
+    margin-left: 49px;
+}
+
+.yearly-contributions-input{
+    margin-left: 29px;
+}
+
+.monthly-contributions-input{
+    margin-left: 15.5px;
+}
+
+.daily-contributions-input{
+    margin-left: 36.5px;
+}
+
+
 
 .output-area{
-    margin:5px 20px;
-    font-size:16px;
+    margin:5px 30px;
+    font-size:25px;
     border-radius:2px;
+    width:330px;
+    height:53px;
 }
 
 .btn{
-    margin:10px 60px;
+    width:195px;
+    margin:7px 100px;
     background:#52c234;
     color:white;
     opacity:80%;
-    font-size:25px;
+    font-size:30px;
     border:none;
     border-radius:10px;
     box-shadow:3px 3px 10px black;
@@ -50,15 +78,18 @@ h3{
     cursor:pointer;
 }
 
-.text-1, .text-2, .text-3{
-    margin:10px;
+.text-1, .text-2, .text-3, .text-4{
+    margin:6px;
     font-family:Tahoma, sans-serif;
 }
 
 .container{
-    width:250px;
-    height:310px;
-    margin:82px 550px;
+    width:400px;
+    height:340px;
+
+
+
+    margin:45px 475px;
     border-radius:10px;
     box-shadow: 8px 8px 30px black;
 
@@ -102,44 +133,5 @@ a{
 /* RESPONSIVE DESIGN FOR MOBILE AND TABLET */
 
 /* Nest Hub */
-@media only screen and (max-width:1240px){
-    .container{
-        width:250px;
-        height:310px;
-        margin:82px 400px;
-        border-radius:10px;
-        box-shadow: 8px 8px 30px black;
-    
-        /*width:250px;
-        height:310px; */
-        
-    }
-
-    .main-nav{
-        list-style: none;
-        float:left;
-        width:18em;
-    }
-}
-
-/* phones, 600px and down */
-@media only screen and (max-width:600px){
-    .container{
-        width:250px;
-        height:310px;
-        margin:82px 400px;
-        border-radius:10px;
-        box-shadow: 8px 8px 30px black;
-    
-        /*width:250px;
-        height:310px; */
-        
-    }
-
-    .main-nav{
-        list-style: none;
-        float:left;
-        width:18em;
-    }
-}
+ 
 
