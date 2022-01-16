@@ -5,6 +5,7 @@
  *version:1.0
 */
 
+/* Main content */
 body{
     background: linear-gradient(to left, #d7d2cc, white);
 }
@@ -60,5 +61,85 @@ h3{
     margin:82px 550px;
     border-radius:10px;
     box-shadow: 8px 8px 30px black;
+
+    /*width:250px;
+    height:310px; */
     
 }
+
+/* Navagation Bar */
+
+header{
+    display:flex;
+    padding:12px 12px;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration:none;
+    color:rgb(29, 29, 29);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    opacity:75%;
+}
+
+.main-nav{
+    list-style: none;
+    float:left;
+    width:24em;
+}
+
+.active{
+    color:#52c234;
+    opacity: 100%;
+    
+}
+
+.hover-link:hover{
+    opacity: 100%;
+}
+
+/* RESPONSIVE DESIGN FOR MOBILE AND TABLET */
+
+/* Nest Hub */
+@media only screen and (max-width:1240px){
+    .container{
+        width:250px;
+        height:310px;
+        margin:82px 400px;
+        border-radius:10px;
+        box-shadow: 8px 8px 30px black;
+    
+        /*width:250px;
+        height:310px; */
+        
+    }
+
+    .main-nav{
+        list-style: none;
+        float:left;
+        width:18em;
+    }
+}
+
+/* phones, 600px and down */
+@media only screen and (max-width:600px){
+    .container{
+        width:250px;
+        height:310px;
+        margin:82px 400px;
+        border-radius:10px;
+        box-shadow: 8px 8px 30px black;
+    
+        /*width:250px;
+        height:310px; */
+        
+    }
+
+    .main-nav{
+        list-style: none;
+        float:left;
+        width:18em;
+    }
+}
+

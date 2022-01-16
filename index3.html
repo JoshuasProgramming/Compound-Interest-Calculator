@@ -1,5 +1,5 @@
 <!---
-    Compound Interest Calculator HTML File (Yearly Compound Interval)
+    Compound Interest Calculator HTML File (Daily Compound Interval)
     author(Joshua Thomas)
     date(13.01.2022)
     version:1.0
@@ -18,14 +18,14 @@
     <!--Navigation bar for Daily, Monthly and Yearly sepreate web pages-->
     <header>
         <ul>
-            <li class="main-nav"><a href="index3.html" class="hover-link">DAILY (365/YR)</a></li>
+            <li class="main-nav"><a href="index3.html" class="active">DAILY (365/YR)</a></li>
             <li class="main-nav"><a href="index2.html" class="hover-link">MONTHLY (12/YR)</a></li>
-            <li class="main-nav"><a href="index.html" class="active"><b>YEARLY (1/YR)</b></a></li>
+            <li class="main-nav"><a href="index.html" class="hover"><b>YEARLY (1/YR)</b></a></li>
         </ul>
     </header>
     <!--Main content for header and container-->
     <h1>Compound Interest Calculator</h1>
-    <h3>This calculates the future investment value at a yearly (1/YR) compound interval</h3>
+    <h3>This calculates the future investment value at a daily (365/YR) compound interval</h3>
     <div class="container">
         <label for="principle" class="text-1">Principle Amount</label>
         <input class="principle-input" id="principle" autocomplete="off" required>
@@ -42,6 +42,6 @@
     </div>
 
     <!---Importing JavaScript file for index.html (Yearly Compound Interval)-->
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script3.js"></script>
 </body>
 </html>
