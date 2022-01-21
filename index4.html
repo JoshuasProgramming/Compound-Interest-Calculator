@@ -1,7 +1,7 @@
 <!---
-    Compound Interest Calculator HTML File (Monthly Compound Interval)
+    Compound Interest Calculator HTML File (Yearly Compound Interval)
     author(Joshua Thomas)
-    date(16.01.2022)
+    date(13.01.2022)
     version:1.0
 -->
 
@@ -19,20 +19,21 @@
 <body>
     <!--Button for light and dark mode toggle-->
     <button class="light-dark-btn" id="toggle_btn" onclick="toggle()">Light/Dark</button>
-
+    
     <!--Navigation bar for Daily, Monthly and Yearly sepreate web pages-->
     <header>
         <ul>
             <li class="main-nav"><a href="index3.html" class="hover-link"><b>DAILY (365/YR)</b></a></li>
-            <li class="main-nav"><a href="index2.html" class="active"><b>MONTHLY (12/YR)</b></a></li>
-            <li class="main-nav"><a href="index.html" class=hover-link><b>YEARLY (1/YR)</b></a></li>
-            <li class="main-nav"><a href="index4.html" class="hover-link"><b>SIMPLE INTEREST</b></a></li>
+            <li class="main-nav"><a href="index2.html" class="hover-link"><b>MONTHLY (12/YR)</b></a></li>
+            <li class="main-nav"><a href="index.html" class="hover-link"><b>YEARLY (1/YR)</b></a></li>
+            <li class="main-nav"><a href="index4.html" class="active"><b>SIMPLE INTEREST</b></a></li>
         </ul>
     </header>
+
     <!--Main content for header and container-->
     <div id="container_info">
-        <h1>Compound Interest Calculator</h1>
-        <h3>This calculates the future investment value at a monthly (12/YR) compound interval<br><u>Interest Rate is set to yearly</u> & <u>additional deposits are monthly</u></h3>
+        <h1>Simple Interest Calculator</h1>
+        <h3>This calculates an amount that includes principle plus interest</h3>
         <div class="container">
             <label for="principle" class="text-1">Principle Amount</label>
             <input class="principle-input" id="principle" autocomplete="off" required>
@@ -43,21 +44,16 @@
             <label for="duration" class="text-3">Duration in years</label>
             <input class="duration-input" id="duration" autocomplete="off" required>
 
-            <label for="monthly" class="text-4">Monthly Contributions</label>
-            <input class="monthly-contributions-input" id="monthly" autocomplete="off">
-            
             <button class="btn" id="btn_">Calculate</button>
             
             <input class="output-area" id="output" disabled>
         </div>
     </div>
-
-    <div class="download-area">
-
-    </div>
     
+    <div class="download-area">
+    </div>
 
-    <!---Importing JavaScript file for index.html (Monthly Compound Interval)-->
-    <script type="text/javascript" src="script2.js"></script>
+    <!---Importing JavaScript file for index.html (Yearly Compound Interval)-->
+    <script type="text/javascript" src="script4.js"></script>
 </body>
 </html>

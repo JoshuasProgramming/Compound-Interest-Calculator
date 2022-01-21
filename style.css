@@ -61,7 +61,7 @@ h3{
     height:53px;
 }
 
-.btn{
+.btn, .download-btn{
     width:195px;
     margin:7px 100px;
     background:#52c234;
@@ -71,6 +71,16 @@ h3{
     border:none;
     border-radius:10px;
     box-shadow:3px 3px 10px black;
+}
+
+.download-btn{
+    margin:45px 574px;
+    height:70px;
+}
+
+.download-btn:hover{
+    opacity:100%;
+    cursor:pointer;
 }
 
 .btn:hover{
@@ -98,12 +108,54 @@ h3{
     
 }
 
+/*Theme Toggle feature*/
+.mode{
+    float:left;
+}
+
+.change{
+    width:100px;
+    border:1px solid black;
+    border-radius:35%;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+/* Dark mode settings */
+.dark-mode-background{
+    background: rgb(80, 80, 80);
+    color:white;
+    
+}
+
+.hover-link-dark{
+    color:white;
+}
+
+.light-dark-btn{
+    width:195px;
+    margin:0px 0px;
+    background:#52c234;
+    color:white;
+    opacity:80%;
+    font-size:30px;
+    border:none;
+    border-radius:10px;
+    box-shadow:3px 3px 10px black;
+}
+
+.light-dark-btn:hover{
+    opacity:100%;
+    cursor:pointer;
+}
+
 /* Navagation Bar */
 
 header{
     display:flex;
     padding:12px 12px;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 a{
@@ -117,7 +169,7 @@ a{
 .main-nav{
     list-style: none;
     float:left;
-    width:24em;
+    width:15em;
 }
 
 .active{
